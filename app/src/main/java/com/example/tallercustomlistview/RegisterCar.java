@@ -108,6 +108,11 @@ public class RegisterCar extends AppCompatActivity {
 
             car = new Car(photoRandom(photos), lp, bra, mol, col, p);
             car.save();
+            license_plate.setText("");
+            price.setText("");
+            brands.setSelection(0);
+            colours.setSelection(0);
+            models.setSelection(0);
             Toast.makeText(this, R.string.save_car , Toast.LENGTH_LONG).show();
         }
     }

@@ -12,9 +12,9 @@
     <string name="model_1">2015</string>
     <string name="model_2">2016</string>
     <string name="model_3">2017</string>
-    <string name="brand_kia">KIA</string>
-    <string name="brand_ford">FORD</string>
-    <string name="brand_chevrolet">CHEVROLET</string>
+    <string name="brand_kia" translatable="false">KIA</string>
+    <string name="brand_ford" translatable="false">FORD</string>
+    <string name="brand_chevrolet" translatable="false">CHEVROLET</string>
     <string name="color_white">Blanco</string>
     <string name="color_red">Rojo</string>
     <string name="color_black">Negro</string>
@@ -36,6 +36,7 @@
     <string name="number_cars_red">Numero de Carros Rojos</string>
     <string name="number_cars_white">Numero de Carros Blancos</string>
     <string name="number_cars_black">Numero de Carros Color Negro</string>
+    <string name="cars_empty">No hay Carros Registrados</string>
 
 
     <string-array name="options">

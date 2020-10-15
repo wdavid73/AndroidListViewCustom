@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">WorkShop Custom ListView</string>
+    <string name="title">WorkShop Custom ListView</string>
+    <string name="register_car">Register Car</string>
+    <string name="list_cars">List Car</string>
+    <string name="reports">Reports</string>
+    <string name="title_register_car">Register Car</string>
+    <string name="license_plate">Enter a License Plate of your Car</string>
+    <string name="price">Enter a Price of your Car</string>
+    <string name="btn_clear">Clear</string>
+    <string name="btn_save">Save</string>
+    <string name="model_1">2015</string>
+    <string name="model_2">2016</string>
+    <string name="model_3">2017</string>
+    <string name="color_white">White</string>
+    <string name="color_red">Red</string>
+    <string name="color_black">Black</string>
+    <string name="select_model">Choose a Model</string>
+    <string name="select_brand">Choose a Brand</string>
+    <string name="select_color">Choose a Colour</string>
+    <string name="save_car">Car Saved</string>
+    <string name="validate_brand">Choose a Valid Brand</string>
+    <string name="validate_model">Choose a Valid Model</string>
+    <string name="validate_color">Choose a Valid Color</string>
+    <string name="validate_license_plate">Enter a License Plate</string>
+    <string name="validate_price">Enter a Price</string>
+    <string name="number_cars_registered">Number of Car Regitered</string>
+    <string name="number_cars_KIA">Number of Cars Kia</string>
+    <string name="number_fords_regitered">Number of Cars Fords</string>
+    <string name="number_chevrolet_registered">Number of Cars Chevrolet</string>
+    <string name="title_big_car">Most expensive car</string>
+    <string name="title_car_small">"Cheapest car "</string>
+    <string name="number_cars_red">Number of Cars Red</string>
+    <string name="number_cars_white">Number of Cars White</string>
+    <string name="number_cars_black">Number of Cars Black</string>
+    <string name="cars_empty">Dont Have Car Registered</string>
+</resources>
