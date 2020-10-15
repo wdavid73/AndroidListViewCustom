@@ -1,0 +1,59 @@
+<resources>
+    <string name="app_name">Taller de ListView Personalizado</string>
+    <string name="title">Taller ListView Personalizado</string>
+    <string name="register_car">Registrar Carro</string>
+    <string name="list_cars">Listar Carros</string>
+    <string name="reports">Reportes</string>
+    <string name="title_register_car">Registrar Carro</string>
+    <string name="license_plate">Ingrese la placa del vehiculo</string>
+    <string name="price">Ingrese el Precio</string>
+    <string name="btn_clear">Borrar</string>
+    <string name="btn_save">Guardar</string>
+    <string name="model_1">2015</string>
+    <string name="model_2">2016</string>
+    <string name="model_3">2017</string>
+    <string name="brand_kia">KIA</string>
+    <string name="brand_ford">FORD</string>
+    <string name="brand_chevrolet">CHEVROLET</string>
+    <string name="color_white">Blanco</string>
+    <string name="color_red">Rojo</string>
+    <string name="color_black">Negro</string>
+    <string name="select_model">Seleccione un Modelo</string>
+    <string name="select_brand">Seleccione una Marca</string>
+    <string name="select_color">Seleccione un Color</string>
+    <string name="save_car">Vehiculo Guardado</string>
+    <string name="validate_brand">Seleccione una Marca valida</string>
+    <string name="validate_model">Seleccione un Modelo valido</string>
+    <string name="validate_color">Seleccione un Color valido</string>
+    <string name="validate_license_plate">Ingrese una placa</string>
+    <string name="validate_price">Ingrese un numero valido</string>
+
+
+    <string-array name="options">
+        <item>@string/register_car</item>
+        <item>@string/list_cars</item>
+        <item>@string/reports</item>
+    </string-array>
+
+    <string-array name="models">
+        <item>@string/select_model</item>
+        <item>@string/model_1</item>
+        <item>@string/model_2</item>
+        <item>@string/model_3</item>
+    </string-array>
+
+    <string-array name="brands">
+        <item>@string/select_brand</item>
+        <item>@string/brand_kia</item>
+        <item>@string/brand_chevrolet</item>
+        <item>@string/brand_ford</item>
+    </string-array>
+
+    <string-array name="colours">
+        <item>@string/select_color</item>
+        <item>@string/color_red</item>
+        <item>@string/color_black</item>
+        <item>@string/color_white</item>
+    </string-array>
+
+</resources>
