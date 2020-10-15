@@ -38,10 +38,10 @@ public class MainActivity extends AppCompatActivity {
                         intent = new Intent(MainActivity.this,ListCars.class);
                         startActivity(intent);
                         break;
-                    case 2:
+                    /*case 2:
                         intent = new Intent(MainActivity.this,Reports.class);
                         startActivity(intent);
-                        break;
+                        break;*/
                 }
             }
         });

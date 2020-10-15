@@ -12,6 +12,8 @@ import android.widget.TextView;
 
 import androidx.annotation.RequiresApi;
 
+import org.w3c.dom.Text;
+
 import java.util.ArrayList;
 
 public class AdapterCar extends BaseAdapter {
@@ -57,6 +59,7 @@ public class AdapterCar extends BaseAdapter {
         TextView brand = v.findViewById(R.id.lblBrand);
         TextView model = v.findViewById(R.id.lblModel);
         TextView price = v.findViewById(R.id.lblPrice);
+        TextView colour = v.findViewById(R.id.lblColor);
 
         //Seteamos los elementos
         photo.setImageDrawable(res.getDrawable(c.getPhoto(),null));
@@ -64,6 +67,7 @@ public class AdapterCar extends BaseAdapter {
         brand.setText(c.getBrand());
         model.setText(c.getModel());
         price.setText(String.valueOf(c.getPrice()));
+        colour.setText(c.getColour());
 
         return v;
     }

@@ -6,8 +6,8 @@
 
     <ImageView
         android:id="@+id/idImgPhoto"
-        android:layout_width="258dp"
-        android:layout_height="78dp"
+        android:layout_width="290dp"
+        android:layout_height="97dp"
         android:layout_weight="1"
         app:srcCompat="@drawable/img_2" />
 
@@ -37,6 +37,12 @@
 
         <TextView
             android:id="@+id/lblPrice"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="TextView" />
+
+        <TextView
+            android:id="@+id/lblColor"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="TextView" />

@@ -27,6 +27,15 @@
     <string name="validate_color">Seleccione un Color valido</string>
     <string name="validate_license_plate">Ingrese una placa</string>
     <string name="validate_price">Ingrese un numero valido</string>
+    <string name="number_cars_registered">Numero de Carros Registrados</string>
+    <string name="number_cars_KIA">Numero de Carros KIA</string>
+    <string name="number_fords_regitered">Number de Carros Ford</string>
+    <string name="number_chevrolet_registered" >Number de Carros Chevrolet</string>
+    <string name="title_big_car">Carro mas caro</string>
+    <string name="title_car_small">Carro mas Economico</string>
+    <string name="number_cars_red">Numero de Carros Rojos</string>
+    <string name="number_cars_white">Numero de Carros Blancos</string>
+    <string name="number_cars_black">Numero de Carros Color Negro</string>
 
 
     <string-array name="options">

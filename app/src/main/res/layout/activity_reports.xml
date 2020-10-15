@@ -7,12 +7,324 @@
     tools:context=".Reports">
 
     <TextView
-        android:id="@+id/textView3"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="reports"
+        android:id="@+id/lbltitleReports"
+        android:layout_width="412dp"
+        android:layout_height="40dp"
+        android:gravity="center"
+        android:text="@string/reports"
+        android:textSize="18sp"
+        android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.004" />
+
+    <LinearLayout
+        android:id="@+id/lyNumberCars"
+        android:layout_width="410dp"
+        android:layout_height="30dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/lbltitleReports">
+
+        <TextView
+            android:id="@+id/lblNumberRegistered"
+            android:layout_width="203dp"
+            android:layout_height="30dp"
+            android:text="@string/number_cars_registered" />
+
+        <TextView
+            android:id="@+id/lblNumberCarRegitered"
+            android:layout_width="206dp"
+            android:layout_height="30dp"
+            android:text="TextView" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/lyNumberKias"
+        android:layout_width="409dp"
+        android:layout_height="30dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/lyNumberCars">
+
+        <TextView
+            android:id="@+id/lblTextNumberKia"
+            android:layout_width="203dp"
+            android:layout_height="30dp"
+            android:layout_weight="1"
+            android:text="@string/number_cars_KIA" />
+
+        <TextView
+            android:id="@+id/lblNumberKiaRegitered"
+            android:layout_width="206dp"
+            android:layout_height="30dp"
+            android:layout_weight="1"
+            android:text="TextView" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/lyNumberFords"
+        android:layout_width="409dp"
+        android:layout_height="30dp"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/lyNumberKias">
+
+        <TextView
+            android:id="@+id/lblNumberFords"
+            android:layout_width="203dp"
+            android:layout_height="30dp"
+            android:layout_weight="1"
+            android:text="@string/number_fords_regitered" />
+
+        <TextView
+            android:id="@+id/lblNumberFordsRegistered"
+            android:layout_width="209dp"
+            android:layout_height="30dp"
+            android:layout_weight="1"
+            android:text="TextView" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/lyNumberChev"
+        android:layout_width="409dp"
+        android:layout_height="30dp"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/lyNumberFords">
+
+        <TextView
+            android:id="@+id/lblNumberChev"
+            android:layout_width="203dp"
+            android:layout_height="30dp"
+            android:layout_weight="1"
+            android:text="@string/number_chevrolet_registered" />
+
+        <TextView
+            android:id="@+id/lblNumberChevRegistered"
+            android:layout_width="209dp"
+            android:layout_height="30dp"
+            android:layout_weight="1"
+            android:text="TextView" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/lblTitleBigCar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/title_big_car"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout4" />
+
+    <TextView
+        android:id="@+id/lblTitleCarSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="@string/title_car_small"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/lyBigCarData" />
+
+    <LinearLayout
+        android:id="@+id/lyBigCarData"
+        android:layout_width="410dp"
+        android:layout_height="110dp"
+        android:layout_marginTop="24dp"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/lblTitleBigCar">
+
+        <ImageView
+            android:id="@+id/imgPhotoBigCar"
+            android:layout_width="284dp"
+            android:layout_height="97dp"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/img_2" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/lblLicense_plate_data"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="TextView"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/lblColor"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="TextView" />
+
+            <TextView
+                android:id="@+id/lblPrice"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="TextView" />
+
+            <TextView
+                android:id="@+id/lblModel"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="TextView" />
+
+            <TextView
+                android:id="@+id/lblBrand"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="TextView" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/lySmallCarData"
+        android:layout_width="409dp"
+        android:layout_height="98dp"
+        android:layout_marginTop="8dp"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/lblTitleCarSmall">
+
+        <ImageView
+            android:id="@+id/imgPhotoSmallCar"
+            android:layout_width="280dp"
+            android:layout_height="98dp"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/img_1" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/lblLicense_plate_small"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="TextView"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/lblPrice_small"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="TextView" />
+
+            <TextView
+                android:id="@+id/lblModel_small"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="TextView" />
+
+            <TextView
+                android:id="@+id/lblColor_small"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="TextView" />
+
+            <TextView
+                android:id="@+id/lblBrand_small"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="TextView" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="409dp"
+        android:layout_height="30dp"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/lyNumberChev">
+
+        <TextView
+            android:id="@+id/lblColorRed"
+            android:layout_width="203dp"
+            android:layout_height="30dp"
+            android:layout_weight="1"
+            android:text="@string/number_cars_red" />
+
+        <TextView
+            android:id="@+id/lblNumberRed"
+            android:layout_width="209dp"
+            android:layout_height="30dp"
+            android:layout_weight="1"
+            android:text="TextView" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="411dp"
+        android:layout_height="30dp"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout">
+
+        <TextView
+            android:id="@+id/lblColorWhite"
+            android:layout_width="203dp"
+            android:layout_height="30dp"
+            android:layout_weight="1"
+            android:text="@string/number_cars_white" />
+
+        <TextView
+            android:id="@+id/lblNumberWhite"
+            android:layout_width="209dp"
+            android:layout_height="30dp"
+            android:layout_weight="1"
+            android:text="TextView" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout4"
+        android:layout_width="411dp"
+        android:layout_height="30dp"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout2">
+
+        <TextView
+            android:id="@+id/lblColorBlack"
+            android:layout_width="203dp"
+            android:layout_height="30dp"
+            android:layout_weight="1"
+            android:text="@string/number_cars_black" />
+
+        <TextView
+            android:id="@+id/lblNumberBlack"
+            android:layout_width="209dp"
+            android:layout_height="30dp"
+            android:layout_weight="1"
+            android:text="TextView" />
+    </LinearLayout>
+
 </androidx.constraintlayout.widget.ConstraintLayout>
